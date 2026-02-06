@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: January 29, 2026
+Last updated: February 06, 2026
 
 ## Overview
 
@@ -20,7 +20,7 @@ Era requests the following permissions:
 
 ## Face Detection
 
-Face detection happens entirely on your device using Apple's built-in frameworks. Face data (eye positions for alignment) is stored locally alongside your photos and never transmitted anywhere.
+Face detection happens entirely on your device. We store the coordinates of the following face landmarks locally alongside your photos: left/right eye, left/right ear, left/right cheek, nose base, mouth (left, right, and bottom). While all these landmarks are stored, only the eye positions are actually used for alignment purposes. This face data never leaves your device and is never transmitted anywhere.
 
 ## No Account Required
 
